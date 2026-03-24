@@ -1,0 +1,144 @@
+.card-preview {
+  position: relative;
+  overflow: hidden;
+  font-family: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.background-shapes {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.card-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 52px 68px;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Top row — badge left, company name right */
+.card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.card-discount-badge {
+  padding: 10px 28px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.card-shop {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+}
+
+/* Promo headline — big text filling top space */
+.card-promo {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0 0 16px;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  max-width: 80%;
+}
+
+/* Subtitle */
+.card-subtitle {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 4px;
+  letter-spacing: 0.2px;
+  line-height: 1.3;
+}
+
+/* Title */
+.card-title {
+  font-size: 86px;
+  font-weight: 900;
+  margin: 0 0 12px;
+  letter-spacing: -2.5px;
+  line-height: 0.95;
+  text-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Features tagline */
+.card-features {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 28px;
+  letter-spacing: 1px;
+}
+
+/* Plans — full width, tight */
+.card-plans {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.plan-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 24px;
+}
+
+.plan-item:last-child {
+  border-bottom: none;
+}
+
+.plan-label {
+  font-weight: 500;
+}
+
+.plan-price {
+  font-weight: 800;
+  font-size: 26px;
+}
+
+/* Bottom row — CTA + contact */
+.card-bottom-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.card-cta {
+  padding: 16px 48px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.card-contact {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
