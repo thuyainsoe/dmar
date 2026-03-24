@@ -140,6 +140,9 @@
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-contact {
