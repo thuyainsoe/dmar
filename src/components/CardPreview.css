@@ -1,7 +1,7 @@
 .card-preview {
   position: relative;
   overflow: hidden;
-  font-family: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+  font-family: "Poppins", "Segoe UI", system-ui, sans-serif;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -44,6 +44,7 @@
   font-weight: 700;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  text-wrap: nowrap;
 }
 
 .card-shop {
